@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "moduleResolution": "node",
+        "types": ["long"],
+        "lib": ["es2015", "dom"],
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist/es",
+        "typeRoots": [
+          "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "test",
+        "dist",
+        "coverage",
+        "node_modules",
+        "prototree"
+    ]
+}
